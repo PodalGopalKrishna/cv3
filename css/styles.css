@@ -1,0 +1,142 @@
+  body {
+    font-family:'Montserrat' ;
+} 
+#title {
+    background-color:#ff4c68;
+   padding: 3% 20%; 
+    color: #fff;
+
+}
+
+h1 {
+    
+    font-family:'Montserrat',sans-serif;
+font-size: 5rem;
+line-height: 1.5;
+font-weight: 1900;
+}
+h3 {
+    font-family: 'Montserrat'sans-serif;
+    
+}
+h2{
+    font-family:'Montserrat',sans-serif;
+    font-size:3rem;
+    line-height: 1.5;
+    padding:2% 20%;
+
+}
+p {
+    color: #8f8f8f;
+}
+/*navigation bar*/
+
+.navbar{
+    margin:0 0 4.5rem;     /*not worked when i use padding(don't know the reason)*/
+}
+
+.navbar-brand {
+    font-family:"ubuntu";
+    font-size: larger;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding : 0 18px;
+}
+
+.nav-link {
+    font-size:1.3rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: light;
+}
+/*download button*/
+.download-button {
+    margin:5% 3% 5% 0;
+}
+/*title-image */
+.title-image {
+    width: 18%;
+    transform:rotate(25deg);
+    position: absolute;
+    padding: auto;
+   
+} 
+
+/*feature*/
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+   
+    
+}
+.feature-box {
+    text-align: center;
+    padding: 10%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 0.5rem;
+}
+.icon:hover {
+    color:#ff4c68
+}
+/*Testominal section*/
+#testimonials {
+   
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff;
+}
+.testimonial-image {
+    width:10%;
+    border-radius:100%;
+}
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding:1%;
+}
+.press-image {
+    width:15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item {
+    padding:7% 15%;
+}
+#pricing {
+    padding: 100px;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.container-fluid {
+    padding:3% 15% ; 
+}
+@media(max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+.title-image{
+    position: static;
+    transform: rotate(0);
+}
+}
+
+#cta {
+ background-color: #ff4c68;
+ font-family: 'Montserrat',sans-serif;
+ text-align: center;
+ font-weight: black;
+ color: #fff;
+ padding:5% 33%;
+}
+
+#footer {
+    text-align: center;
+    padding: 5%;
+}
+.social-icon {
+    margin:20px 10px;
+}
